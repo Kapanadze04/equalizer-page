@@ -356,3 +356,114 @@ span { font-weight: 700; }
 
 }
 
+
+
+
+
+/******************************************************DESKTOP SIZE*******************************************************/
+
+@media only screen and (max-width: 1439px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+                                /*HEADER*/
+    .breakpoint-size {
+        width: 1440px;
+        background-image: url(../images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: left -40vw top -40vh;
+    }
+
+    .logo-header { margin-left: 160px; }
+
+    .tablet-right-img {
+        margin-left: 1128px;
+        margin-top: -140px;
+    }
+
+    .header > h1 {
+        margin-left: 160px;
+        
+        width: 900px;
+        height: 176px;
+        font-size: 78px;
+        line-height: 78px;
+        letter-spacing: -1px;
+    }
+
+    .header > p {
+        margin-left: 160px;
+        margin-top: 40px;
+    
+        width: 815px;
+        height: 102px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+
+                                /*MAIN*/
+    .top {
+        width: 1110px;
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-top: 300px;
+    }
+
+    .illustration {
+        width: 312px;
+        height: 642px;
+        margin-left: -544px;
+    }
+
+    .bottom {
+        width: 446px;
+        height: 625px;
+        margin-top: -460px;
+        margin-left: 800px;
+    }
+
+    .bottom > h2 { 
+        margin-left: 54px; 
+        margin-top: 58px;
+        font-size: 40px;
+    }
+
+    .bottom > p {
+        width: 333px;
+        height: 170px;
+        margin-top: 22px;
+        margin-left: 54px;
+        margin-right: 59px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .ios-container,
+    .android-container {
+        margin-left: 54px;
+        margin-right: 59px;
+        width: 333px;
+        height: 61px;
+    }
+
+
+
+
+                                /*FOOTER*/
+    .footer { width: 1440px; }
+
+    .logo-footer { margin-left: 165px; }
+
+    .footer > p {
+        margin-left: 440px;
+        margin-top: -40px;
+    }
+
+    .social-icons {
+        margin-left: 1180px;
+        margin-top: -66px;
+    }
+}
+
